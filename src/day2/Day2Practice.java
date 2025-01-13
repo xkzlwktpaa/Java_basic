@@ -15,7 +15,7 @@ public class Day2Practice {
         System.out.print("사각형의 세로 길이를 입력하세요: ");
         int b = sc.nextInt();
         System.out.println("사각형의 넓이는" + (a * b));
-        //
+        /*  */
 
     }
 }
