@@ -6,8 +6,8 @@ public class Day7Practice {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("학생수를 입력하세요");
-        int num1 = sc.nextInt();
-        int[] scores = new int[num1];
+        int num = sc.nextInt();
+        int[] scores = new int[num];
 
         int sum = 0;
 
@@ -24,7 +24,7 @@ public class Day7Practice {
             sum = sum + scores[i];
         }
 
-        System.out.println(sum / num1);
+        System.out.println(sum / num);
 
 
     }
