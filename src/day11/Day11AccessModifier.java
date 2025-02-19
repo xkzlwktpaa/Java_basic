@@ -10,7 +10,7 @@ public class Day11AccessModifier {
         return privateField; // private 변수에 접근하는 public
     }
 
-//    public void setPrivateField(String value) {
-//        privateField = value; // private 변수 값을 수정하는 public 매서드
-//    }
+    public void setPrivateField(String value) {
+        privateField = value; // private 변수 값을 수정하는 public 매서드
+    }
 }
